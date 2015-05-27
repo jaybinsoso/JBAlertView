@@ -1,4 +1,4 @@
-JBAlertView
+JBAlertView(UIAlertView+JBAlertView)
 ===================================
 
 Overview
@@ -11,6 +11,9 @@ Usage
 ----------------------------------
 初始化AlertView，设置Block<br>
 ```
+#import "UIAlertView+JBAlertView.h"
+
+
 //初始化AlertView1
 UIAlertView *alertView1 = [[UIAlertView alloc] initWithTitle:@"alertView1" message:nil delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
     alertView1.alertViewBlock = ^(NSInteger index){

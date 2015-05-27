@@ -51,19 +51,35 @@
 - (void)showAlertView1{
     UIAlertView *alertView1 = [[UIAlertView alloc] initWithTitle:@"alertView1" message:nil delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
     alertView1.alertViewBlock = ^(NSInteger index){
-        NSLog(@"%@",NSStringFromSelector(_cmd));
+        
+        if(1==index){
+            NSLog(@"click OK_button");
+        }
+        else if (0==index){
+            NSLog(@"click Cancel_button");
+        }
         
         [self setDescText:NSStringFromSelector(_cmd) index:index];
+        
     };
+    
     [alertView1 show];
+    
 }
 
 - (void)showAlertView2{
     UIAlertView *alertView2 = [[UIAlertView alloc] initWithTitle:@"alertView2" message:nil delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
     alertView2.alertViewBlock = ^(NSInteger index){
-        NSLog(@"%@",NSStringFromSelector(_cmd));
         
+        if(1==index){
+            NSLog(@"click OK_button");
+        }
+        else if (0==index){
+            NSLog(@"click Cancel_button");
+        }
+
         [self setDescText:NSStringFromSelector(_cmd) index:index];
+        
     };
     [alertView2 show];
 }
@@ -71,7 +87,13 @@
 - (void)showAlertView3{
     UIAlertView *alertView3 = [[UIAlertView alloc] initWithTitle:@"alertView3" message:nil delegate:self cancelButtonTitle:@"cancel" otherButtonTitles:@"ok", nil];
     alertView3.alertViewBlock = ^(NSInteger index){
-        NSLog(@"%@",NSStringFromSelector(_cmd));
+        
+        if(1==index){
+            NSLog(@"click OK_button");
+        }
+        else if (0==index){
+            NSLog(@"click Cancel_button");
+        }
         
         [self setDescText:NSStringFromSelector(_cmd) index:index];
     };

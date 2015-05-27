@@ -15,6 +15,7 @@
 		73D186B61B15E07F00172257 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73D186B41B15E07F00172257 /* LaunchScreen.xib */; };
 		73D186C21B15E07F00172257 /* JBAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D186C11B15E07F00172257 /* JBAlertViewTests.m */; };
 		73D186CD1B15E09E00172257 /* UIAlertView+JBAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D186CC1B15E09E00172257 /* UIAlertView+JBAlertView.m */; };
+		73D186D01B15F41500172257 /* jb_alertview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 73D186CF1B15F41500172257 /* jb_alertview.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		73D186C11B15E07F00172257 /* JBAlertViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JBAlertViewTests.m; sourceTree = "<group>"; };
 		73D186CB1B15E09E00172257 /* UIAlertView+JBAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+JBAlertView.h"; sourceTree = "<group>"; };
 		73D186CC1B15E09E00172257 /* UIAlertView+JBAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+JBAlertView.m"; sourceTree = "<group>"; };
+		73D186CF1B15F41500172257 /* jb_alertview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = jb_alertview.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 				73D186AF1B15E07F00172257 /* Main.storyboard */,
 				73D186B21B15E07F00172257 /* Images.xcassets */,
 				73D186B41B15E07F00172257 /* LaunchScreen.xib */,
+				73D186CE1B15F41500172257 /* screenshots */,
 				73D186A51B15E07F00172257 /* Supporting Files */,
 			);
 			path = JBAlertView;
@@ -122,6 +125,14 @@
 				73D186C01B15E07F00172257 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73D186CE1B15F41500172257 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				73D186CF1B15F41500172257 /* jb_alertview.gif */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +217,7 @@
 			files = (
 				73D186B11B15E07F00172257 /* Main.storyboard in Resources */,
 				73D186B61B15E07F00172257 /* LaunchScreen.xib in Resources */,
+				73D186D01B15F41500172257 /* jb_alertview.gif in Resources */,
 				73D186B31B15E07F00172257 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +436,7 @@
 				73D186C71B15E07F00172257 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73D186C81B15E07F00172257 /* Build configuration list for PBXNativeTarget "JBAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +445,7 @@
 				73D186CA1B15E07F00172257 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

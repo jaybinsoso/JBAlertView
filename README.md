@@ -10,7 +10,7 @@ JBAlertView为UIAlertView动态添加一个Block属性，将AlertView与button�
 Usage
 ----------------------------------
 初始化AlertView，设置Block<br>
-```
+``` objc
 #import "UIAlertView+JBAlertView.h"
 
 
@@ -45,10 +45,10 @@ UIAlertView *alertView2 = [[UIAlertView alloc] initWithTitle:@"alertView2" messa
 
 [alertView2 show];
 
-``` 
+```
 
 实现UIAlertViewDelegate方法<br>
-``` 
+``` objc
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
     alertView.alertViewBlock(buttonIndex);
 }

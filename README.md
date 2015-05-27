@@ -1,0 +1,2 @@
+# JBAlertView
+JBAlertView为UIAlertView动态添加一个Block属性，将AlertView与button的点击操作关联，简单的区分处理一个视图有多个AlertView弹窗
